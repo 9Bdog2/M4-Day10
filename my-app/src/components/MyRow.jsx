@@ -28,7 +28,7 @@ const MyRow = (props) => {
   return (
     <>
       {songs.length > 0 &&
-        songs.map((song) => (
+        songs.map((song, i ) => i < 8 && (
           <div className="d-inline-flex good_morning_container">
             <div
               className="d-flex align-items-center good_morning_section"

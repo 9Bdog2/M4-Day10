@@ -37,7 +37,7 @@ const Body = () => {
       </div>
       <div className="w-100 mt-3 shows-to-try-container">
         {/* One card*/}
-        <MyCard query={"Elton%20John"} />
+        <MyCard query={"podcast"} />
         {/* One card end*/}
       </div>
       {/* SHOWS TO TRY SECTION END*/}

@@ -29,7 +29,7 @@ const MyCard = (props) => {
       <>
       {
       songs.length > 0 &&
-        songs.map((song) => (
+        songs.map((song, i) => i < 10 &&(
             <div className="spotify-card d-flex flex-column">
              <div className="p-2" key={song.album.id}>
               <div>
